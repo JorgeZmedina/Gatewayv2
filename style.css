@@ -1,0 +1,160 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Arial';
+    letter-spacing: 4px;
+  }
+  
+  a{
+    text-decoration: none;
+    color: green;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  img {
+    height: 50px;
+    width: 50px
+  }
+  
+  .link {
+    width: 52px;
+    height: 54px;
+  }
+  /* 
+  .acp {
+    float:left;
+  } */
+  
+  /* navigation bar */
+  
+  nav {
+    padding: 20px;
+    position: static;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline;
+    padding: 5px;
+  }
+  
+  .navtxt :hover {
+    background-color:black;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+  
+  .action :hover {
+    background-color:black;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+  
+  .cart :hover {
+    background-color:black;
+    text-decoration: none;
+    border-radius: 12px;
+  }
+  
+  .logo {
+    float: left;
+    height: 40pt;
+    width: auto;
+  }
+  
+  h1,
+    h2,
+      h3,
+          .cart{
+      text-align: center;
+  }
+  
+  /* call to action */
+  
+  .title {
+    border: 10px solid #050505;
+  }
+  
+  
+  .action {
+    text-align: center;
+    border: none;
+    margin: 50px 650px;
+    padding: 10px;
+    display: inline-block;
+    border-radius:12px;
+  }
+  
+  
+  /* hero imgage */
+  
+  body {
+  background-image: url("images/Background.webp");
+    background-size: cover;
+    background-color: lightgray;
+  }
+  
+  /* contact */
+  
+  form {
+    text-align: center;
+  }
+  
+  /* Menu */
+  
+  .menu-left {
+    float: left;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .menu-right {
+    float: right;
+    display: block;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  
+  .food-image {
+    text-align: center;
+  }
+  
+  .food-image img{
+    object-fit: cover;
+    height: 50px;
+    width: 70px;
+    max-width: 100%;
+    max-height: 100%;
+  /*   aspect-ratio: 1 to 1; */
+  }
+  h6 {
+    opacity: 0%;
+  }
+  
+  /* footer */
+  
+  footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  } 
+  
+  .link {
+     width: 50px;
+     height: 50px;
+  }
+  /* 
+  footer a {
+    opacity:0.9;
+    height: auto;
+  } */
